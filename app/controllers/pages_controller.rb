@@ -20,10 +20,10 @@ class PagesController < ApplicationController
   end
 
   def me
-    @name = "Matthew Choi"
-    @place = "Alameda"
+    @named = "Matthew Choi"
+    @place = "Berkeley"
     @year = "Senior"
     @fact =  "I can play 5 instruments"
-    @excite = "Excited for lots of fun"
+    @excite = "Excited to make cool stuff on the interweb"
   end
 end
